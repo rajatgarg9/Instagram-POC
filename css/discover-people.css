@@ -1,0 +1,84 @@
+.not-followed-people-discover-list-container {
+    width: 600px;
+    margin: 60px auto;
+    background-color: white;
+}
+ul.discover-people-list li:first-child {
+    padding: 16px;
+    font-weight: bold;
+    color: #999;
+    font-size: 14px;
+}
+ul.discover-people-list li {
+    padding: 18px;
+    border-bottom: 1px solid #D0D0D0;
+    font-family: 'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+.not-followed-person-content {
+    width: 563px;
+}
+.not-followed-people-profile-image {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    vertical-align: text-bottom;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+}
+.not-followed-people-user-name-container {
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 16px;
+}
+.not-followed-people-user-name {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+    cursor: pointer;
+}
+.not-followed-people-name {
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+    cursor: pointer;
+}
+.follow-button {
+    width: 120px;
+    color: #00B2EE;
+    border: 1px solid #00B2EE;
+    height: 20px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+}
+.following-button {
+    width: 120px;
+    color: white;
+    height: 20px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #70c050;
+    border: 1px solid #70c050;
+}
+.display-line-block {
+    display: inline-block;
+}
+.not-followed-people-posts-image-container {
+    padding-top: 8px;
+}
+.not-followed-people-posts-image {
+    width: 183px;
+    height: 183px;
+    border: 1px solid #E8E8E8;
+    margin: 1px;
+}

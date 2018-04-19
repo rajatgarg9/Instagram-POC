@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>instagram</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles-reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style_profile_page.css" />
+</head>
+
+<body class="body">
+
+    <!--header navigation-->
+    <div id="header">
+        <header>
+            <div class="header-navigator">
+                <nav>
+                    <div class="blog-post-logo">
+                        <a href="./post_page.html"> <img src="./images/instagram.png" alt="Home Page" class="logo" />
+                        </a>
+                    </div>
+                    <div class="search-name">
+                        <div>
+                            <input type="text" size="20" placeholder="Search" name="search" class="search" />
+                        </div>
+                        <div class="search-name-result-box-container">
+                            <div class=search-name-result-box-container-inner-container>
+                                <ul class="search-result-list"></ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="discover-people-notification-home-profile-main-container">
+                        <div>
+                            <figure id="discover-people-notification-home-profile-inner-container">
+                                <a href="./discover_people.html"> <img src="./images/discoverppl.png" alt="Discover people" />
+                                </a>
+                                <span class="notification"><img src="./images/heart.png" alt="notification" class="notification-image"/>
+                                </span>
+                                <a href="./profile_page.html" class="profile"><img src="./images/profile.png" alt="profile" />
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="notification-box-container">
+                            <div class="notification-box-container-inner-container">
+                                <ul class="notification-retrive-list">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div id="transparent-box-model">
+            </div>
+        </header>
+    </div>
+
+    <!--Body Content-->
+    
+    <div class="profile-container">
+        <div class="profile-information-container">
+            <section>
+                <div class="dispaly-inline-block profile-pitcure-container float-left">
+                    <div class="profile-posts-inner-container">
+                        <img src="" alt="profile pitcure" class="profile-pitcure profile-pitcure-element cursor-pointer" />
+                    </div>
+                </div>
+                <div class="profile-text-informtion dispaly-inline-block">
+                    <div class="profile-text-informtion-row">
+                        <div class="profile-text-informtion-profile-name dispaly-inline-block">
+                            <p id="profile-user-name">x</p>
+                        </div>
+                        <div class="dispaly-inline-block">
+                            <input type="button" value="Edit Profile" class="follow-button-suggestion" />
+                        </div>
+                        <div class="dispaly-inline-block log-out-button-container">
+                            <button class="log-out-button">
+                                <img src="./images/circle-outline-48.ico" alt="log out button" class="log-out-button-image" />
+                                <img src="./images/circle-outline-48.ico" alt="log out button" class="log-out-button-image" />
+                                <img src="./images/circle-outline-48.ico" alt="log out button" class="log-out-button-image" />
+                            </button>
+                        </div>
+                    </div>
+                    <div class="profile-text-informtion-row">
+                        <span class="profile-text-informtion-activity"><span class="bold-font post-count-number">x</span> posts</span>
+                        <span class="profile-text-informtion-activity cursor-pointer"><span class="bold-font follower-count-number">x</span> followers</span>
+                        <span class="profile-text-informtion-activity cursor-pointer"><span class="bold-font following-count-number">x</span> following</span>
+                    </div>
+                    <div class="profile-text-informtion-row">
+                        <span class="profile-text-informtion-activity profile-text-informtion-about ">
+                        <span class="bold-font" id="profile-name">x</span>
+                        <span class="bio-information">x</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="modal-box log-out-modal-box">
+            <div class="modal-content-container-log-out">
+                <ul class="modal-content-log-out">
+                    <li id="main-log-out-button">Log out</li>
+                    <li id="log-out-cancel">Cancel</li>
+                </ul>
+            </div>
+        </div>
+        <div class="modal-box profile-pitcure-modal-box">
+            <div class="modal-content-container-log-out">
+                <ul class="modal-content-log-out">
+                    <li class="profile-pitcure-change-modal-Box-element">Change Profile Pitcure</li>
+                    <li id="profile-pitcure-modal-box-Remove-Current-Photo">Remove Current Photo</li>
+                    <li id="profile-pitcure-modal-box-upload-photo">Upload Photo
+                        <input type="file" class="profile-upload-file" />
+                    </li>
+                    <li id="profile-pitcure-modal-box-cancel">Cancel</li>
+                </ul>
+            </div>
+        </div>
+        <div class="modal-box comment-modal">
+            <div class="modal-content-container-log-out">
+                <ul class="modal-content-log-out">
+                    <li class="delete-comment">Delete Comment</li>
+                    <li class="cancel-comment">Cancel</li>
+                </ul>
+            </div>
+        </div>
+        <div class="all-profile-posts-container">
+            <section class="post-section">
+                <div class="load-more-data">
+                </div>
+            </section>
+            <div class="load-more">
+                <p class="load-more-text">Load more</p>
+            </div>
+        </div>
+    </div>
+
+        <!-- Footer Navigation -->
+
+    <div class="footer-container footer-container-profile-page">
+        <footer>
+            <div class="dispaly-inline-block float-left">
+                <a href="" class="about-us about-us-profile-page">ABOUT US</a>
+                <a href="">SUPPORT</a>
+                <a href="">BLOG</a>
+                <a href="">PRESS</a>
+                <a href="">API</a>
+                <a href="">JOBS</a>
+                <a href="">PRIVACY</a>
+                <a href="">TERMS</a>
+                <a href="">DIRECTORY</a>
+                <a href="">LANGUAGE</a>
+            </div>
+            <div class="copyright dispaly-inline-block float-right">
+                <p>&copy; 2016 INSTAGRAM</p>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/libs/loadash.js"></script>
+    <script src="./data/data.js"></script>
+    <script src="./js/post-methods.js"></script>
+    <script src="./js/global-methods.js"></script>
+    <script src="./js/profile-page-template-method.js"></script>
+    <script src="./js/profile-page-method.js"></script>
+    <script src="./js/profile-page-main.js"></script>
+</body>
+
+</html>

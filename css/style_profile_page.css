@@ -1,0 +1,549 @@
+.all-profile-post-container {
+    width: 1000px;
+    margin: auto;
+}
+.profile-information-container {
+    width: 1000px;
+    margin: auto;
+    padding: 30px 0px 20px 0px;
+}
+.profile-pitcure-container {
+    width: 300px;
+    height: 150px;
+    margin: 40px 15px 0px 15px;
+}
+.profile-posts-inner-container {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.profile-pitcure {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+}
+.profile-text-informtion {
+    margin: 40px 15px;
+    width: 600px;
+}
+.profile-text-informtion-row {
+    margin-bottom: 20px;
+}
+.follow-button-suggestion {
+    background-color: inherit;
+    color: #999;
+    font-weight: bold;
+    border: 1px solid #999;
+    border-radius: 4px;
+    outline: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin: 0px 20px;
+}
+.follow-button-suggestion:active {
+    color: #c1c1c1;
+    border: 1px solid #c1c1c1;
+}
+.log-out-button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+}
+.log-out-button-image {
+    width: 6px;
+    height: 6px;
+    vertical-align: middle;
+}
+.profile-text-informtion-profile-name {
+    font-weight: lighter;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+}
+.profile-text-informtion-activity {
+    font-weight: 100;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+    margin-right: 50px;
+}
+.profile-text-informtion-about {
+    margin-right: 0px;
+}
+.all-profile-posts-container {
+    width: 1000px;
+    margin: auto;
+}
+.profile-posts-container {
+    margin: 15px;
+    position: relative;
+}
+.profile-posts {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+.profile-posts-container .profile-posts-container-hover {
+    display: none;
+    cursor: pointer;
+}
+.profile-posts-container:hover .profile-posts-container-hover {
+    display: block;
+}
+.profile-posts-container-hover {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+.comment-like-image-size {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.comment-like-hover-information-container {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin: 40% 20%;
+}
+.comment-like-hover-information-inner-container {
+    margin: 24px;
+}
+.dispaly-inline-block {
+    display: inline-block;
+}
+.bold-font {
+    font-weight: bold;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+.load-more {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #00B2EE;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    color: #00B2EE;
+    margin-top: 30px;
+}
+.load-more-text {
+    margin-top: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.load-more:active {
+    color: #ADD8E6;
+}
+.footer-container-profile-page {
+    width: 970px;
+    word-spacing: 10px;
+    padding: 40px 0px 30px 0px;
+}
+.about-us-profile-page {
+    word-spacing: 2px;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.modal-box {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.modal-content-container-log-out {
+    background-color: white;
+    width: 500px;
+    margin: 17% auto;
+}
+.modal-content-log-out {
+    text-align: center;
+    font-family: 'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.modal-content-log-out li {
+    padding: 18px;
+    border-bottom: 1px solid #D0D0D0;
+    cursor: pointer;
+}
+.modal-content-log-out li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+.modal-content-log-out li:last-child {
+    border-bottom: none;
+}
+.modal-content-container-followers {
+    background-color: white;
+    width: 650px;
+    margin: 3.8% auto;
+}
+.modal-content-followers {} .modal-content-followers li {
+    padding: 18px;
+    border-bottom: 1px solid #D0D0D0;
+    font-family: 'proxima-nova', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+.modal-content-followers>li:first-child {
+    border-bottom: 1px solid #A0A0A0;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.modal-content-followers>li:last-child {
+    border-bottom: none;
+    padding: 0px;
+}
+.modal-content-followers-list {
+    height: 550px;
+    overflow-y: scroll;
+}
+.modal-box-profile-posts {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+}
+.profile-posts-modal-box-image {
+    width: 650px;
+    height: 600px;
+}
+.post-related-information-container {
+    background-color: white;
+    width: 320px;
+    height: 570px;
+    padding: 15px
+}
+.modal-box-profile-posts-content-container {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+.profile-pitcure-side-icon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+.beside-profile-user-name {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+    margin-left: 15px;
+}
+.profile-post-modal-side-bar-row-1 {
+    width: 320px;
+    height: 40px;
+    padding: 10px 0px 10px;
+}
+.profile-post-modal-side-bar-row-2 {
+    width: 320px;
+    height: 20px;
+    padding: 10px 0px;
+}
+.profile-post-modal-side-bar-total-likes {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+}
+.profile-post-modal-side-bar-time {
+    font-weight: lighter;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.beside-profile-comment-user-name {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+}
+.profile-post-modal-side-bar-comment-area {
+    padding: 0px 0px 10px 0px;
+}
+.profile-post-modal-side-bar-upper-container {
+    height: 520px;
+}
+.profile-post-modal-side-bar-comment-area {
+    overflow-y: auto;
+    height: 390px;
+}
+.like-button-alignment {
+    margin-top: 7px;
+}
+.modal-box-previous-profile-posts {
+    color: #B0B0B0;
+    display: inline-block;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 300px 20px 0px 0px;
+    cursor: pointer;
+}
+.modal-box-next-profile-posts {
+    color: #B0B0B0;
+    display: inline-block;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 300px 0px 0px 20px;
+    cursor: pointer;
+}
+.modal-box-previous-profile-posts:active {
+    color: #C8C8C8;
+}
+.modal-box-next-profile-posts:active {
+    color: #C8C8C8;
+}
+.follow-button {
+    width: 120px;
+    color: #00B2EE;
+    border: 1px solid #00B2EE;
+    height: 20px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+}
+.following-button {
+    width: 120px;
+    color: white;
+    height: 20px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #70c050;
+    border: 1px solid #70c050;
+}
+.follower-image {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    vertical-align: text-bottom;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+}
+.follower-user-name {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+    cursor: pointer;
+}
+.follower-name {
+    font-weight: bold;
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+    cursor: pointer;
+}
+.follower-image-container {
+    display: inline-block;
+}
+.followers-name-user-name-container {
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 16px;
+}
+.profile-pitcure-change-modal-Box-element {
+    color: #A8A8A8;
+    font-weight: normal;
+    cursor: auto;
+    background-color: white;
+    pointer-events: none;
+}
+.search-name-result-box-container {
+    display: none;
+    position: absolute;
+    top: 170%;
+    width: 220px;
+    background-color: white;
+    border: 1px solid #999;
+    z-index: 6;
+    border-radius: 3px;
+}
+.search-name-result-box-container::after {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    top: -8.5px;
+    margin-left: -10px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    background-color: white;
+    border-color: #999 transparent transparent #999;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+.search-result-image-container {
+    display: inline-block;
+    padding: 15px 0px 15px 15px;
+}
+.search-result-profile-image {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid gainsboro;
+    vertical-align: text-bottom;
+}
+.search-result-name-user-name-container {
+    display: inline-block;
+    margin-left: 9px;
+    line-height: 18px;
+}
+.search-result-user-name {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 144px
+}
+.search-result-name {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(160, 160, 160);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 144px
+}
+.search-result-list li {
+    border-bottom: 1px solid #999;
+}
+.search-result-list li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.search-result-list li:last-child {
+    border-bottom: none;
+}
+.search-name-result-box-container-inner-container {
+    width: 220px;
+    max-height: 350px;
+    overflow-y: auto;
+}
+.search-result-not-found {
+    width: 220px;
+    color: #999;
+    padding: 10px 0px;
+    text-align: center;
+    pointer-events: none;
+}
+.notification-box-container {
+    display: none;
+    position: absolute;
+    top: 120%;
+    right: 0;
+    width: 550px;
+    background-color: white;
+    border: 1px solid #999;
+    z-index: 6;
+    border-radius: 3px;
+}
+.notification-box-container::after {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    top: -8.5px;
+    margin-left: 189px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    background-color: white;
+    border-color: #999 transparent transparent #999;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+.notification-box-container-inner-container {
+    width: 550px;
+    max-height: 350px;
+    overflow-y: auto;
+}
+.notification-box-activist-image-container {
+    display: inline-block;
+    padding: 15px 0px 15px 15px;
+}
+.activist-profile-image {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid gainsboro;
+    vertical-align: middle;
+}
+.notification-retrive-list li:after {
+    content: "";
+    border-bottom: 1px solid #999;
+    width: 470px;
+    position: absolute;
+    left: 52px;
+}
+.notification-retrive-list li {
+    position: relative;
+    cursor: pointer;
+}
+.notification-box-text-container {
+    width: 400px;
+    padding: 10px;
+}
+.notification-box-user-name {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+    width: 144px;
+}
+.notification-box-notification-time {
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.notification-profile-image {
+    width: 35px;
+    height: 35px;
+    border: 1px solid gainsboro;
+    vertical-align: middle;
+}
+#transparent-box-model {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
